@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/ee205_lab08c_all_animals_great_and_small.dir/main.cpp.o CMakeFiles/ee205_lab08c_all_animals_great_and_small.dir/animal.cpp.o -o ee205_lab08c_all_animals_great_and_small 
