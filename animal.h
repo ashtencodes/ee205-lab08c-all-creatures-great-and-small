@@ -26,6 +26,9 @@ protected:
     enum Gender gender = UNKNOWN_GENDER;
     float weight = UNKNOWN_WEIGHT;
 
+    bool validateWeight( const float weight );
+    bool validateSpecies( const std::string newSpecies );
+
 public:
     Animal( const std::string &newSpecies );
 
@@ -50,4 +53,7 @@ public:
     void printInfo();
 
     bool isValid();
+
+private:
+    void setSpecies( const std::string newSpecies );
 };
